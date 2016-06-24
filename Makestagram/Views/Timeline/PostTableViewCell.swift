@@ -8,11 +8,13 @@
 
 import UIKit
 import Bond
+import Parse
 
 class PostTableViewCell: UITableViewCell {
     @IBOutlet weak var postImageView: UIImageView!
     @IBOutlet weak var likesIconImageView: UIImageView!
     @IBOutlet weak var likesLabel: UILabel!
+    
     
     @IBOutlet weak var moreButton: UIButton!
     @IBOutlet weak var likeButton: UIButton!
@@ -21,6 +23,7 @@ class PostTableViewCell: UITableViewCell {
     @IBAction func moreButtonTapped(sender: UIButton) {
     }
     @IBAction func likeButtonTapped(sender: UIButton) {
+        post?.toggleLikePost(PFUser.currentUser()!, post: post!)
     }
     
     

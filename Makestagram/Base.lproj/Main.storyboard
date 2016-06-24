@@ -136,9 +136,8 @@
                                         <connections>
                                             <outlet property="likeButton" destination="y0L-IX-3hf" id="0Bs-dg-T2f"/>
                                             <outlet property="likesIconImageView" destination="POE-dF-R89" id="XHa-vH-Otr"/>
-                                            <outlet property="likesImageView" destination="POE-dF-R89" id="GLx-g3-N4s"/>
-                                            <outlet property="likesLabel" destination="Uxa-HC-7Lg" id="sok-OK-QeH"/>
-                                            <outlet property="moreButton" destination="w7y-t1-Wcl" id="gb6-zS-2hW"/>
+                                            <outlet property="likesLabel" destination="Uxa-HC-7Lg" id="Hq4-Xg-hgb"/>
+                                            <outlet property="moreButton" destination="w7y-t1-Wcl" id="QDa-LA-PW7"/>
                                             <outlet property="postImageView" destination="2Ku-dr-ECb" id="MmK-2s-iYv"/>
                                         </connections>
                                     </tableViewCell>
