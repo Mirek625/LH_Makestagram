@@ -144,6 +144,7 @@
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="xOL-G9-X90" id="EB1-sh-EOB"/>
+                                    <outlet property="delegate" destination="xOL-G9-X90" id="dJ1-Xv-raY"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -159,7 +160,7 @@
                         <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
                     </tabBarItem>
                     <connections>
-                        <outlet property="timelineTableView" destination="OxA-w3-xJD" id="abD-pg-ZI7"/>
+                        <outlet property="tableView" destination="OxA-w3-xJD" id="jVM-ww-oyd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bPb-yK-mZb" userLabel="First Responder" sceneMemberID="firstResponder"/>
